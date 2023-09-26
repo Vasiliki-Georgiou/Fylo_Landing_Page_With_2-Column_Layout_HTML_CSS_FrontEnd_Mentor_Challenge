@@ -28,8 +28,10 @@
             <div class="product-description">
                 <h1>All your files in one secure location, accessible anywhere.</h1>
                 <p>Fylo store your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-                <input type="email" placeholder="Enter your email..." required title="Please check your email" name="email" id="email">
-                <button>Get Started</button>
+                     <input type="email" placeholder="Enter your email..." title="Please check your email" name="email" id="email" minlength="10" maxlength="64">
+                    <small>Please check your email</small>
+                     <button>Get Started</button>
+                     
             </div>
         </section>
     </header>
@@ -61,36 +63,39 @@
             <p>It only takes a minute to sign up and our free starter tier is  extremely generous.  If you have any questions, our support team would be happy to help you. </p>
         </div>
         <div>
-            <input type="email" placeholder="email@example.com" required title="Please check your email" name="email2" id="email2">
+            <input type="email" placeholder="email@example.com" title="Please check your email" name="email2" id="email2" minlength="10" maxlength="64">
+            <small>Please check your email</small>
             <button>Get Started For Free</button>
         </div>
     </section>
     <footer>
         <img src="images/logo1.svg" alt="Company logo">
-        <div class="contact-details">
-            <img src="images/icon-phone.svg" alt="Phone">
-            <address>Phone: +1-543-123-4567</address>
-            <br>
-            <img src="images/icon-email.svg" alt="Email">
-            <address>example@fylo.com</address>
-        </div>
-        <div class="links">
-            <div>
-                <a href="#">About Us</a>
-                <a href="#">Jobs</a>
-                <a href="#">Press</a>
-                <a href="#">Blog</a>
+        <div class="footer-container">
+            <div class="contact-details">
+                <img src="images/icon-phone.svg" alt="Phone">
+                <address>Phone: +1-543-123-4567</address>
+                <br>
+                <img src="images/icon-email.svg" alt="Email">
+                <address>example@fylo.com</address>
             </div>
-            <div>
-                <a href="#">Contact Us</a>
-                <a href="#">Terms</a>
-                <a href="#">Privacy</a>
+            <div class="links">
+                <div>
+                    <a href="#">About Us</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Press</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                </div>
             </div>
-        </div>
-        <div class="social-media">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <div class="social-media">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
         </div>
     </footer>
 </body>
